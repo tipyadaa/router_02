@@ -1,6 +1,6 @@
 <script setup>
-import BlogHeader from './views/BlogHeader.vue';
-import Jumbo from './views/Jumbo.vue';
+//import BlogHeader from './views/BlogHeader.vue';
+//import Jumbo from './views/Jumbo.vue';
 
 //import { RouterLink, RouterView } from 'vue-router'
 //import {RouterView } from 'vue-router'

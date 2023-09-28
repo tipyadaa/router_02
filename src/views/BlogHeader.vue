@@ -42,10 +42,10 @@ import { RouterLink } from 'vue-router'
   <header class="border-bottom lh-1 py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
-        <a class="link-secondary" href="#">Subscribe</a>
+        <img src="https://o.remove.bg/downloads/5b9bf707-3d6e-4145-b886-9268ec6c86a9/%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95_2023-09-28_190520-removebg-preview.png" alt="" style="width: 150px;">
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">Large</a>
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"></a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="link-secondary" href="#" aria-label="Search">

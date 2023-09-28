@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import MainPage from '../views/MainPage.vue'
-import NewsCard from '../views/NewsCard.vue'
+//import NewsCard from '../views/NewsCard.vue'
 import ANewsCard from '../views/A-NewsCard.vue'
 import ANewsCard2 from '../views/A-NewsCard2.vue'
 import ANewsCard3 from '../views/A-NewsCard3.vue'
@@ -12,11 +12,6 @@ import ANewsCard6 from '../views/A-NewsCard6.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
-      path: '/news',
-      name: 'news',
-      component: NewsCard
-    },
     {
       path: '/ANewsCard',
       name: 'ANewsCard',
