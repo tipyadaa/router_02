@@ -22,9 +22,9 @@ dayClose :'เปิดทุกวัน'},
 
 <template>
   <div>
-  <div class="row mb-2">
+  <div class="row">
     <BlogHeader></BlogHeader>
-  <div class="col-md-10" v-for="(n,index) in travelList" :key="index" >
+  <div class="col" v-for="(n,index) in travelList" :key="index" >
     
     <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
       <div class="col p-4 d-flex flex-column position-static">

@@ -21,14 +21,14 @@ dayClose :'เปิดทุกวัน'},
 
 
 <template>
-  <div>
-  <div class="row mb-2">
+  <div >
+  <div class="row mb-2 ">
     <BlogHeader></BlogHeader>
-  <div class="col-md-10" v-for="(n,index) in travelList" :key="index" >
+  <div class="col" v-for="(n,index) in travelList" :key="index" >
     
-    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-center">
       <div class="col p-4 d-flex flex-column position-static">
-        <strong class="d-inline-block mb-2 text-primary-emphasis">World {{ index+1 }}</strong>
+        <strong class="d-inline-block mb-2 text-primary-emphasis justify-content-center" >World {{ index+1 }}</strong>
         <h3 class="mb-0"><strong></strong>{{ n.name }}</h3>
         <div class="mb-1 text-body-secondary">{{ n.timeOpen }} <P>{{ n.dayClose }}</P></div>
         <p class="card-text mb-auto">{{n.decipe}}</p>

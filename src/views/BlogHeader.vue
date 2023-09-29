@@ -45,7 +45,7 @@ import { RouterLink } from 'vue-router'
         <img src="https://o.remove.bg/downloads/5b9bf707-3d6e-4145-b886-9268ec6c86a9/%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95_2023-09-28_190520-removebg-preview.png" alt="" style="width: 150px;">
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"></a>
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/382545036_621016996887325_5311982080993004390_n.png?stp=dst-png_s350x350&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeEGDQTOSS_aRPZobW8BAwEJLF6qkpirSWwsXqqSmKtJbLIxu9IoUj1-E09gKFvAAyx3R91SYf4y718J_YQZcZ54&_nc_ohc=O8XYMdHfBOIAX_zu_LG&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_e2o=s&oh=03_AdSang7Qxe-h-F6ufgKRZteDsmSjfIbSxcYRtaVZtuYDHw&oe=653DC38B" alt="" style="width: 150px;"></a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="link-secondary" href="#" aria-label="Search">
@@ -57,20 +57,11 @@ import { RouterLink } from 'vue-router'
   </header>
 
   <div class="nav-scroller py-1 mb-3 border-bottom">
-    <nav class="nav nav-underline justify-content-between">
+    <nav class="nav nav-underline justify-content-center" >
     
       <RouterLink class="nav-item nav-link link-body-emphasis active" to="/">Home</RouterLink>
       <RouterLink class="nav-item nav-link link-body-emphasis"  to="/about">About</RouterLink>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Technology</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Design</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Culture</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Business</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Politics</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Opinion</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Science</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Health</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Style</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Travel</a>
+     
     </nav>
   </div>
 </div>
